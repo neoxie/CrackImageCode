@@ -1,3 +1,5 @@
+import locale
+locale.setlocale(locale.LC_ALL, 'C')
 import tesserocr
 from PIL import Image
 
